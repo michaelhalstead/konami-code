@@ -1,0 +1,31 @@
+{
+  "name": "konami-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "konami-code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./konami-code.js -d dist"
+  },
+  "keywords": [
+    "easter egg",
+    "contra code",
+    "contra",
+    "konami code",
+    "konami",
+    "cheat code",
+    "cheat",
+    "surprise"
+  ],
+  "author": "Michael Halstead",
+  "license": "ISC",
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all",
+    "semi": true
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
